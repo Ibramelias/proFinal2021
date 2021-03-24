@@ -212,24 +212,10 @@ img {
   border-radius: 50%;
   width:25%;
   margin-left: -15%;
+  margin-top: 20px
   
 }
 
-
-
-.whatIwant{
-  letter-spacing: 1px;
-  text-align:center;
-  letter-spacing: .5px;
-  background-color:  #f5dcd6;
-  border-radius: 10px;
-  /* height: 95%; */
-  color: #000;
-  line-height: 200%;
-  padding: 25px;
-  word-spacing: 3px;
- 
-}
 
 
 .aboutme{
@@ -240,15 +226,39 @@ img {
   background-color: rgb(218, 240, 222);
   border-radius: 10px;
   font-size: 15px;
-  height: 95%;
+  /* height: 95%; */
   padding: 25px;
   word-spacing: 3px;
-
+  margin-bottom: 20px;
+  width: 40%;
+  margin-left: 50px;
 
 }
 
 
+.whatIwant{
+  letter-spacing: 1px;
+  text-align:center;
+  letter-spacing: .5px;
+  background-color:  #f5dcd6;
+  border-radius: 10px;
+  height: 95%;
+  color: #000;
+  line-height: 200%;
+  padding: 25px;
+  word-spacing: 3px;
+  width: 40%;
+  float: right;
+  margin-right:50px;
+  margin-bottom: 30px;
+  margin-top: -200px;
+ 
+}
+
+
+
+
 #phase1{
-  margin-top: 50%;
+  margin-top: 55%;
 
 }
