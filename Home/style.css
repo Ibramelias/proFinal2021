@@ -1,0 +1,254 @@
+body {
+  background: #000;
+
+}
+
+svg {
+  /* height: 140%; */
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+
+.title-block {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+.title-block .title {
+  position: relative;
+  left: -50%;
+  color: #fff;
+  text-align: center;
+  font-family: "Lato";
+  letter-spacing: 5px;
+}
+
+#top .st48,
+#top .st52,
+#top .st50 {
+  animation: drift-right-up 80s alternate;
+}
+#top .st33,
+#top .st51 {
+  animation: drift-right-up 75s alternate;
+}
+#top .st49,
+#top .st42 {
+  animation: drift-right-up 65s alternate;
+}
+
+#bottom .st11,
+#bottom .st56 {
+  animation: drift-down 70s alternate;
+}
+#bottom .st53,
+#bottom .st54 {
+  animation: drift-right 195s alternate;
+}
+#bottom .st55,
+#bottom .st36,
+#bottom .st33 {
+  animation: drift-down 115s alternate;
+}
+#bottom .st51 {
+  animation: drift-down-right 105s alternate;
+}
+
+#nearright .st40,
+#nearright .st43,
+#nearright .st33 {
+  animation: drift-right 115s;
+}
+#nearright .st41,
+#nearright .st44 {
+  animation: drift-right-up 105s;
+}
+#nearright .st42,
+#nearright .st45,
+#nearright .st46,
+#nearright .st55,
+#nearright .st47 {
+  animation: drift-right 135s;
+}
+
+#farright .st54,
+#farright .st58,
+#farright .st59 {
+  animation: drift-right 55s;
+}
+#farright .st57,
+#farright .st51 {
+  animation: drift-right-up 40s;
+}
+
+@keyframes drift-right {
+  100% {
+    transform: translate(2000px, -20px);
+  }
+}
+@keyframes drift-right-up {
+  100% {
+    transform: translate(2000px, -250px);
+  }
+}
+@keyframes drift-up {
+  100% {
+    transform: translate(10px, -1450px);
+  }
+}
+@keyframes drift-up-right {
+  100% {
+    transform: translate(175px, -1550px);
+  }
+}
+@keyframes drift-down {
+  100% {
+    transform: translate(2000px, 1220px);
+  }
+}
+@keyframes drift-down-right {
+  100% {
+    transform: translate(1450px, 320px);
+  }
+}
+
+
+
+
+/*  */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+#cursorBlob {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(120deg, #FF1744, #E040FB, #2979FF, #00E5FF, #76FF03);
+  background-size: 1600% 1600%;
+  position: absolute;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 1;
+  transition: 0.15s linear;
+  animation: blobRadius 5s ease infinite, blobBackground 15s ease infinite;
+}
+
+@keyframes blobRadius {
+  0%, 100% {
+    border-radius: 43% 77% 80% 40%/40% 40% 80% 80%;
+  }
+  20% {
+    border-radius: 47% 73% 61% 59%/47% 75% 45% 73%;
+  }
+  40% {
+    border-radius: 46% 74% 74% 46%/74% 58% 62% 46%;
+  }
+  60% {
+    border-radius: 47% 73% 61% 59%/40% 40% 80% 80%;
+  }
+  80% {
+    border-radius: 50% 70% 52% 68%/51% 61% 59% 69%;
+  }
+}
+@keyframes blobBackground {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+.wrap {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  /* width: 100vw; */
+  float: right;
+}
+
+.nav {
+  /* display: flex; */
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.nav__link {
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.25s ease;
+  margin: 20px;
+}
+li{
+  display: inline-block;
+}
+/* .nav__link:not(:last-child) {
+  margin-bottom: 50px;
+} */
+.nav__link:hover {
+  transform: translateX(25px);
+}
+
+
+h1{
+  color: #fff;
+  font-size: 40px;
+  margin: 20px;
+  
+}
+
+
+/* .row {
+  Max-width: 1140px;
+  margin: 0 auto 0 auto;
+      
+} */
+
+
+img {
+  border-radius: 50%;
+  width:25%;
+  margin-left: -15%;
+  
+}
+
+
+
+.whatIwant{
+  letter-spacing: 1px;
+  text-align:center;
+  letter-spacing: .5px;
+  background-color:  #f5dcd6;
+  border-radius: 10px;
+  /* height: 95%; */
+  color: #000;
+  line-height: 200%;
+  padding: 25px;
+  word-spacing: 3px;
+ 
+}
+
+
+.aboutme{
+  letter-spacing: 1px;
+  line-height: 200%;
+  text-align: center;
+  color:#000;
+  background-color: rgb(218, 240, 222);
+  border-radius: 10px;
+  font-size: 15px;
+  height: 95%;
+  padding: 25px;
+  word-spacing: 3px;
+
+
+}
+
+
+#phase1{
+  margin-top: 50%;
+
+}
