@@ -199,8 +199,8 @@ img {
 
 .bio{
   color: #fff;
-  margin-top: 60% ;
-  margin-bottom: -40%;
+  margin-top: 45% ;
+  margin-bottom: -50%;
 
   /* margin-left: -100%; */
 }
@@ -329,10 +329,3 @@ li{
   color: #fff;
   margin: 5px;
 }
-
-
-
-/* li{
-  list-style: none;
-  display: list-item;
-} */
