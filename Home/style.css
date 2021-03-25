@@ -262,3 +262,46 @@ img {
   margin-top: 55%;
 
 }
+
+
+#skills{
+  align-items: center;
+  text-align: center;
+  
+}
+
+#front{
+  background-color: #FDFD96;
+  margin:40px;
+  height: 80%;
+  border-radius: 10px;
+  padding: 2px;
+  width: 40%;
+  
+}
+
+.fronttitle{
+  border-bottom:  1px solid black;
+  
+}
+
+.backtitle{
+  border-bottom:  1px solid black;
+}
+
+#back{
+  background-color: #a2caeb;
+  margin: 20px;
+  height: 80%;
+  border-radius: 10px;
+  padding: 2px;
+  width: 40%;
+  float: right;
+  margin-top: -7%;
+  margin-right: 50px;
+ 
+}
+
+ul{
+  height: 50px;
+}
