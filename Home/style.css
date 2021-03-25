@@ -209,11 +209,20 @@ h1{
 
 
 img {
+  position: relative;
   border-radius: 50%;
-  width:25%;
-  margin-left: -15%;
-  margin-top: 20px
+  width:70%;
+  margin-left: -30%;
+  margin-top: -30%
   
+}
+
+.bio{
+  color: #fff;
+  margin-top: 60% ;
+  margin-bottom: -40%;
+
+  /* margin-left: -100%; */
 }
 
 
@@ -230,8 +239,8 @@ img {
   padding: 25px;
   word-spacing: 3px;
   margin-bottom: 20px;
-  width: 40%;
-  margin-left: 50px;
+  width: 100%;
+  /* margin-left: 50px; */
 
 }
 
@@ -242,16 +251,16 @@ img {
   letter-spacing: .5px;
   background-color:  #f5dcd6;
   border-radius: 10px;
-  height: 95%;
+  /* height: 95%; */
   color: #000;
   line-height: 200%;
   padding: 25px;
   word-spacing: 3px;
-  width: 40%;
+  width: 100%;
   float: right;
-  margin-right:50px;
+  /* margin-right:50px; */
   margin-bottom: 30px;
-  margin-top: -200px;
+  /* margin-top: -200px; */
  
 }
 
@@ -273,7 +282,7 @@ img {
 #front{
   background-color: #FDFD96;
   margin:40px;
-  height: 80%;
+  height: 95%;
   border-radius: 10px;
   padding: 2px;
   width: 40%;
@@ -292,16 +301,49 @@ img {
 #back{
   background-color: #a2caeb;
   margin: 20px;
-  height: 80%;
+  height: 95%;
   border-radius: 10px;
   padding: 2px;
   width: 40%;
   float: right;
-  margin-top: -7%;
-  margin-right: 50px;
+ 
  
 }
 
+
+
 ul{
-  height: 50px;
+  height: auto;
+  display: list-item;
 }
+li{
+  display: list-item;
+  list-style: none;
+}
+
+footer{
+  background-color: rgb(225, 224, 224);
+  margin-top: 20%;
+  height: 50%;
+
+}
+
+
+.footer{
+  color: rgb(87, 85, 85);
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.link{
+  color: #000;
+}
+
+
+
+/* li{
+  list-style: none;
+  display: list-item;
+} */

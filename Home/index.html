@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Welcome</title>
 </head>
@@ -12,33 +14,60 @@
 <body>
   <!-- Navbar -->
 
-  <div class="row">
-    <h1>Ibram Elias</h1>
-    <div id="cursorBlob"></div>
-    <div class="wrap">
-      <ul class="nav">
-        <li><a class="nav__link" href="#">Home</a></li>
-        <li><a class="nav__link" href="#">Portfolio</a></li>
-        <li><a class="nav__link" href="#">Contact Me</a></li>
-      </ul>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Welcome</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+   
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
 
 
 
 
+  <section class="main">
 
     <div class="title-block">
-      <h1 class="title"> BUILD. CREATE. ACCELERATE. </h1>
+      <!-- <h1 class="title"> BUILD. CREATE. ACCELERATE. </h1> -->
       <img calss="photo" src="../assets/img/5D4950AB-24B1-4D41-9DA6-5E5A8E0C07E8_1_105_c.jpeg" alt="myphoto">
 
+      <!-- <h1 class="bio">
+        Hi.. My name is Ibram<br>
+        I'm an aspiring Full Stack Developer.
+      </h1> -->
     </div>
 
 
+
+    <h1 class="bio">
+      Hi.. My name is Ibram<br>
+      I'm an aspiring Full Stack Developer.
+    </h1>
+
     <div class="container" id="phase1">
+
+    
+
       <div class="row">
         <!-- Who I Am -->
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="aboutme">
             <p>
               <strong class="am">Who I Am</strong>...Rutgers Alumna, Enthusiastic full stack developer with a
@@ -52,7 +81,7 @@
         </div>
 
         <!-- What I Want part -->
-        <div class=" col-md-4">
+        <div class=" col-md-6">
           <div class="whatIwant">
             <p>
               <strong class="am">What I Want</strong> ...
@@ -68,32 +97,50 @@
     <section class="container">
       <div class="row" id="skills">
 
-          <!-- Frontend skills -->
-          <div class="col-md" id="front">
-              <P class="fronttitle">Frontend Skills</P>
-              <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Java Script</li>
-                  <li>Ajax</li>
-                  <li>ReactJs</li>
-              </ul>
-          </div>
+        <!-- Frontend skills -->
+        <div class="col-md-6" id="front">
+          <P class="fronttitle">Front-End Skills</P>
+          <ul class="frontSkills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>Ajax</li>
+            <li>ReactJs</li>
+          </ul>
+        </div>
 
-          <!-- Backend skills -->
-          <div class="col-md" id="back">
-              <P class="backtitle">Backend Skills</P>
-              <ul>
-                  <li>Node</li>
-                  <li>MySQL</li>
-                  <li>Express</li>
-                  <li>Mongo</li>
-                  <li>Mongoose</li>
-                  <li>MongoDB</li>
-              </ul>
-          </div>
+        <!-- Backend skills -->
+        <div class="col-md-6" id="back">
+          <P class="backtitle">Back-End Skills</P>
+          <ul>
+            <ul>
+              <li>Node</li>
+              <li>MySQL</li>
+              <li>Express</li>
+              <li>Mongo</li>
+              <li>Mongoose</li>
+              <li>MongoDB</li>
+            </ul>
+          </ul>
+        </div>
       </div>
-  </section>
+
+      <footer>
+        <h1 class="footer">Follow me on:
+          <a class="link" href="https://github.com/Ibramelias">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a class="link" href="https://linkedin.com/in/ibram-elias-b0018148">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a class="link" href="https://www.facebook.com/ibram.darwish/">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </h1>
+
+      </footer>
+
+    </section>
 
 
     <?xml version="1.0" encoding="utf-8"?>
@@ -855,10 +902,20 @@
       <polygon class="st51" points="684.5,551.8 860,659.7 739.4,692.4 	" />
       <polygon class="st51" points="517.3,483.1 610.1,424.4 522.9,616.5 	" />
     </g>
-  </svg>
-
+    </svg>
+  </section>
 
   <script src="home.js"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
