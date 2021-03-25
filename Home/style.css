@@ -193,7 +193,8 @@ img {
   border-radius: 50%;
   width:70%;
   margin-left: -30%;
-  margin-top: -30%
+  margin-top: -30%;
+  z-index: 7;
   
 }
 
