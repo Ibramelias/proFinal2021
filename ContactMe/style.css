@@ -33,6 +33,9 @@
     text-decoration: none;
 
   }
+  a:hover{
+    color: #fff;
+  }
   
   .form {
     width: 300px;
