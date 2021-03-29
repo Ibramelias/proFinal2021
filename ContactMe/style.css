@@ -5,12 +5,33 @@
   body {
     background-color: #212121;
     color: #fff;
-    font-family: monospace, serif;
+    /* font-family: monospace, serif; */
     letter-spacing: 0.05em;
   }
+
+  .container{
+    margin-top: 30px;
+  }
   
-  h1 {
-    font-size: 23px;
+  .name {
+    font-size: 40px;
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom: 30px;
+
+  }
+
+
+  .links{
+    font-family: 'RocknRoll One', sans-serif;
+    color:#00d4ff;
+    letter-spacing: 2px;
+
+  }
+
+  .path{
+    color: #fff;
+    text-decoration: none;
+
   }
   
   .form {
@@ -20,6 +41,8 @@
   }
   .form .control {
     margin: 0 0 24px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
   }
   .form .control input {
     width: 100%;
@@ -27,7 +50,7 @@
     border: 0;
     background: transparent;
     color: #fff;
-    font-family: monospace, serif;
+    font-family: 'Aclonica', sans-serif;
     letter-spacing: 0.05em;
     font-size: 16px;
   }
@@ -45,7 +68,7 @@
     color: #fff;
     letter-spacing: 0.1em;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Aclonica', sans-serif;
     font-size: 16px;
   }
   
@@ -152,10 +175,12 @@
 }
 
 .info{
-    background-color: gray;
-    width: 50%;
-    margin: 10%;
-    
+
+  margin: 10%;
+  font-size: 20px;
+   
 }
+
+
 
   
